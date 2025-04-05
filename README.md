@@ -1,7 +1,5 @@
 # Code for "Semiparametric estimation with overparameterized neural networks"
 
-#### ***Note***: This repository contain implementation code for the manuscript. The full source code is also publicly available on GitHub: [https://github.com/yuanyuanbenben/Semi_Regression_OverparaNN](https://github.com/yuanyuanbenben/Semi_Regression_OverparaNN). 
-
 ## Overview
 
 - ### Directories ***regression*** and ***classification*** contains all codes in the simulation for the partial linear regression and classification examples, respectively. 
