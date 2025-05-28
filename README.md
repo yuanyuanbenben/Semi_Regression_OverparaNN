@@ -1,4 +1,4 @@
-# Code for "Semiparametric estimation with overparameterized neural networks"
+# Materials for "Semiparametric estimation with overparameterized neural networks"
 
 ## Overview
 
