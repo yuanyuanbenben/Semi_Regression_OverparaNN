@@ -142,7 +142,7 @@ for seed in range(200):
                     Wh = np.diag(Phi_validation[i,:])
                     S_validation[i,:,:] = np.transpose(np.matmul(np.transpose(Z0),Wh))
                 Y_fit = sigmoid_func(np.matmul(X_validation,beta_hat)+ temp_calculate(S_validation,coef_2))
-                validation_loss = np.mean(np.square(Y_validation-Y_fit))
+                validation_loss = - np.mean(Y_validation * np.log(1e-3 + Y_fit) + (1-Y_validation) * np.log(1e-3 + 1-Y_fit))
                 print('validation loss:', validation_loss)
                 
                 if validation_loss < loss:
