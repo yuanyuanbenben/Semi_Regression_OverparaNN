@@ -17,9 +17,9 @@
         - "***run.sh***": Shell files to run all python files;
         - "***plot.ipynb***": Results visualization in the manuscript.
 ## Workflows
-- **Simulation:**  
-  Run the shell files directly (`./xxx.sh`) for our proposed method and baselines 1 to 4.  
-  For Cases 1 to 4, users need to change the `-m` parameter in shell files to 0,1,8,9 respectively.  
-- **RealData:**  
-  Run `./run.sh` in either  PM2.5 regression  or  PM2.5 classification  folders to reproduce results.  
-  Run `plot.ipynb` to visualize experimental results.
+- **Simulation:**
+    - Run the shell files directly (`./xxx.sh`) for our proposed method and baselines 1 to 4.  
+    - For Cases 1 to 4, users need to change the `-m` parameter in shell files to 0,1,8,9 respectively.  
+- **RealData:**
+    - Run `./run.sh` in either  PM2.5 regression  or  PM2.5 classification  folders to reproduce results.
+    - Run `plot.ipynb` to visualize experimental results.
