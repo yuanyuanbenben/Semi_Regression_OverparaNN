@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 859f2f8 (update new codes)
 # Materials for "Semiparametric estimation with overparameterized neural networks"
 <a href="https://arxiv.org/pdf/2504.19089">https://arxiv.org/pdf/2504.19089</a>
 ## Overview
@@ -62,8 +58,4 @@
 - **RealData:**  
   Run `run.sh` in either  PM2.5 regression  or  PM2.5 classification  folders to reproduce results.  
   Run `plot.ipynb` to visualize experimental results.
-=======
-# Semi_Regression_OverparaNN
->>>>>>> remotes/origin/main
->>>>>>> 03ca868 (update codes)
->>>>>>> 859f2f8 (update new codes)
+
